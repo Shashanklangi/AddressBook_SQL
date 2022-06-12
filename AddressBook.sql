@@ -22,3 +22,5 @@ INSERT INTO AddressBook VALUES('Iris','Light','Mulund','Navimumbai','MH',963258,
 SELECT * FROM AddressBook
 
 UPDATE AddressBook SET Address = 'Dombivli' WHERE FirstName = 'Iris'
+
+DELETE FROM AddressBook WHERE FirstName = 'Johnson'
