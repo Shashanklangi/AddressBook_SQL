@@ -19,6 +19,8 @@ INSERT INTO AddressBook VALUES('Johnson','Mendella','Dadar','Miami','America',12
 INSERT INTO AddressBook VALUES('Charles','Dark','Beverlyhills','Sanfransico','Newyork',852369,9564213370,'dark@gmail.com')
 INSERT INTO AddressBook VALUES('Dwyane','Rock','Palghar','Surat','Gujarat',124563,9975062727,'palgharrock@gmail.com')
 INSERT INTO AddressBook VALUES('Iris','Light','Mulund','Navimumbai','MH',963258,9956442187,'mulundiris@gmial.com')
+INSERT INTO AddressBook VALUES('Hublo','Trek','Chiplun','Navimumbai','MH',125365,123256324,'trek@gmial.com')
+INSERT INTO AddressBook VALUES('Pablo','Escobar','Mulund','Navimumbai','MH',852354,8523212365,'escobarpablo@gmial.com')
 SELECT * FROM AddressBook
 
 UPDATE AddressBook SET Address = 'Dombivli' WHERE FirstName = 'Iris'
@@ -26,3 +28,5 @@ UPDATE AddressBook SET Address = 'Dombivli' WHERE FirstName = 'Iris'
 DELETE FROM AddressBook WHERE FirstName = 'Johnson'
 
 SELECT * FROM AddressBook WHERE City = 'Surat' or State = 'Gujarat'
+
+SELECT COUNT(City) FROM AddressBook WHERE City = 'Navimumbai' and State = 'MH'
