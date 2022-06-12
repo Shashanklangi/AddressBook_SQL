@@ -14,3 +14,9 @@ CREATE TABLE AddressBook
 	PhoneNumber BIGINT NOT NULL,
 	Email VARCHAR(50) NOT NULL
 );
+
+INSERT INTO AddressBook VALUES('Johnson','Mendella','Dadar','Miami','America',125634,9158499217,'mandelladadar@gmail.com')
+INSERT INTO AddressBook VALUES('Charles','Dark','Beverlyhills','Sanfransico','Newyork',852369,9564213370,'dark@gmail.com')
+INSERT INTO AddressBook VALUES('Dwyane','Rock','Palghar','Surat','Gujarat',124563,9975062727,'palgharrock@gmail.com')
+INSERT INTO AddressBook VALUES('Iris','Light','Mulund','Navimumbai','MH',963258,9956442187,'mulundiris@gmial.com')
+SELECT * FROM AddressBook
