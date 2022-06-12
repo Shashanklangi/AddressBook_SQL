@@ -24,3 +24,5 @@ SELECT * FROM AddressBook
 UPDATE AddressBook SET Address = 'Dombivli' WHERE FirstName = 'Iris'
 
 DELETE FROM AddressBook WHERE FirstName = 'Johnson'
+
+SELECT * FROM AddressBook WHERE City = 'Surat' or State = 'Gujarat'
