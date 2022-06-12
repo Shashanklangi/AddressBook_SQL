@@ -20,3 +20,5 @@ INSERT INTO AddressBook VALUES('Charles','Dark','Beverlyhills','Sanfransico','Ne
 INSERT INTO AddressBook VALUES('Dwyane','Rock','Palghar','Surat','Gujarat',124563,9975062727,'palgharrock@gmail.com')
 INSERT INTO AddressBook VALUES('Iris','Light','Mulund','Navimumbai','MH',963258,9956442187,'mulundiris@gmial.com')
 SELECT * FROM AddressBook
+
+UPDATE AddressBook SET Address = 'Dombivli' WHERE FirstName = 'Iris'
