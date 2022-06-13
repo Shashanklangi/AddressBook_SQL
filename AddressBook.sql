@@ -30,3 +30,5 @@ DELETE FROM AddressBook WHERE FirstName = 'Johnson'
 SELECT * FROM AddressBook WHERE City = 'Surat' or State = 'Gujarat'
 
 SELECT COUNT(City) FROM AddressBook WHERE City = 'Navimumbai' and State = 'MH'
+
+SELECT * FROM AddressBook WHERE City = 'Navimumbai' ORDER BY FirstName
