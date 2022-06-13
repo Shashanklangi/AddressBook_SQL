@@ -32,3 +32,11 @@ SELECT * FROM AddressBook WHERE City = 'Surat' or State = 'Gujarat'
 SELECT COUNT(City) FROM AddressBook WHERE City = 'Navimumbai' and State = 'MH'
 
 SELECT * FROM AddressBook WHERE City = 'Navimumbai' ORDER BY FirstName
+
+ALTER TABLE AddressBook
+ADD NAME VARCHAR(100), TYPE VARCHAR(100)
+
+UPDATE AddressBook SET TYPE = 'FriendsBook', NAME = 'Friend' WHERE FirstName in ('Charles','Dwyane');
+UPDATE AddressBook SET TYPE = 'FamilyBook', NAME = 'Family' WHERE FirstName in ('Iris', 'Hublo', 'Pablo');
+
+
